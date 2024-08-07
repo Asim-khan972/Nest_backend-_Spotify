@@ -1,0 +1,242 @@
+[
+  {
+    "title": "Blinding Lights",
+    "artists": ["The Weeknd"],
+    "releaseDate": "2020-03-20",
+    "duration": "03:20"
+  },
+  {
+    "title": "Watermelon Sugar",
+    "artists": ["Harry Styles"],
+    "releaseDate": "2019-11-16",
+    "duration": "02:54"
+  },
+  {
+    "title": "Levitating",
+    "artists": ["Dua Lipa", "DaBaby"],
+    "releaseDate": "2020-10-01",
+    "duration": "03:23"
+  },
+  {
+    "title": "Peaches",
+    "artists": ["Justin Bieber", "Daniel Caesar", "Giveon"],
+    "releaseDate": "2021-03-19",
+    "duration": "03:18"
+  },
+  {
+    "title": "Save Your Tears",
+    "artists": ["The Weeknd"],
+    "releaseDate": "2020-08-09",
+    "duration": "03:35"
+  },
+  {
+    "title": "Drivers License",
+    "artists": ["Olivia Rodrigo"],
+    "releaseDate": "2021-01-08",
+    "duration": "04:02"
+  },
+  {
+    "title": "Good 4 U",
+    "artists": ["Olivia Rodrigo"],
+    "releaseDate": "2021-05-14",
+    "duration": "02:58"
+  },
+  {
+    "title": "Montero (Call Me By Your Name)",
+    "artists": ["Lil Nas X"],
+    "releaseDate": "2021-03-26",
+    "duration": "02:17"
+  },
+  {
+    "title": "Stay",
+    "artists": ["The Kid LAROI", "Justin Bieber"],
+    "releaseDate": "2021-07-09",
+    "duration": "02:21"
+  },
+  {
+    "title": "Kiss Me More",
+    "artists": ["Doja Cat", "SZA"],
+    "releaseDate": "2021-04-09",
+    "duration": "03:28"
+  },
+  {
+    "title": "Shayad",
+    "artists": ["Arijit Singh"],
+    "releaseDate": "2020-02-14",
+    "duration": "03:10"
+  },
+  {
+    "title": "Tum Hi Aana",
+    "artists": ["Jubin Nautiyal"],
+    "releaseDate": "2019-10-10",
+    "duration": "04:09"
+  },
+  {
+    "title": "Ghungroo",
+    "artists": ["Arijit Singh", "Shilpa Rao"],
+    "releaseDate": "2019-09-05",
+    "duration": "05:02"
+  },
+  {
+    "title": "Aankh Marey",
+    "artists": ["Neha Kakkar", "Mika Singh", "Kumar Sanu"],
+    "releaseDate": "2018-12-06",
+    "duration": "03:34"
+  },
+  {
+    "title": "Tera Ban Jaunga",
+    "artists": ["Akhil Sachdeva", "Tulsi Kumar"],
+    "releaseDate": "2019-06-11",
+    "duration": "03:56"
+  },
+  {
+    "title": "Bekhayali",
+    "artists": ["Sachet Tandon"],
+    "releaseDate": "2019-05-24",
+    "duration": "05:52"
+  },
+  {
+    "title": "Pachtaoge",
+    "artists": ["Arijit Singh"],
+    "releaseDate": "2019-08-23",
+    "duration": "03:47"
+  },
+  {
+    "title": "Malang",
+    "artists": ["Ved Sharma"],
+    "releaseDate": "2020-02-07",
+    "duration": "04:50"
+  },
+  {
+    "title": "Duniyaa",
+    "artists": ["Akhil", "Dhvani Bhanushali"],
+    "releaseDate": "2019-03-20",
+    "duration": "03:43"
+  },
+  {
+    "title": "Hawayein",
+    "artists": ["Arijit Singh"],
+    "releaseDate": "2017-07-12",
+    "duration": "04:50"
+  },
+  {
+    "title": "Ve Maahi",
+    "artists": ["Arijit Singh", "Asees Kaur"],
+    "releaseDate": "2019-03-15",
+    "duration": "03:56"
+  },
+  {
+    "title": "Dil Diyan Gallan",
+    "artists": ["Atif Aslam"],
+    "releaseDate": "2017-12-02",
+    "duration": "04:20"
+  },
+  {
+    "title": "Tera Yaar Hoon Main",
+    "artists": ["Arijit Singh"],
+    "releaseDate": "2018-02-21",
+    "duration": "04:12"
+  },
+  {
+    "title": "Tum Mile",
+    "artists": ["Neeraj Shridhar"],
+    "releaseDate": "2009-10-14",
+    "duration": "04:48"
+  },
+  {
+    "title": "Tera Fitoor",
+    "artists": ["Arijit Singh"],
+    "releaseDate": "2018-03-09",
+    "duration": "05:00"
+  },
+  {
+    "title": "Raataan Lambiyan",
+    "artists": ["Jubin Nautiyal", "Asees Kaur"],
+    "releaseDate": "2021-07-27",
+    "duration": "03:50"
+  },
+  {
+    "title": "Zaalima",
+    "artists": ["Arijit Singh", "Harshdeep Kaur"],
+    "releaseDate": "2017-01-05",
+    "duration": "04:59"
+  },
+  {
+    "title": "Kaun Tujhe",
+    "artists": ["Palak Muchhal"],
+    "releaseDate": "2016-06-17",
+    "duration": "04:00"
+  },
+  {
+    "title": "Nashe Si Chadh Gayi",
+    "artists": ["Arijit Singh"],
+    "releaseDate": "2016-10-18",
+    "duration": "03:57"
+  },
+  {
+    "title": "Samjhawan",
+    "artists": ["Arijit Singh", "Shreya Ghoshal"],
+    "releaseDate": "2014-06-24",
+    "duration": "04:48"
+  },
+  {
+    "title": "Titliaan",
+    "artists": ["Afsana Khan"],
+    "releaseDate": "2020-11-29",
+    "duration": "04:08"
+  },
+  {
+    "title": "Brown Munde",
+    "artists": ["AP Dhillon", "Gurinder Gill", "Shinda Kahlon"],
+    "releaseDate": "2020-09-18",
+    "duration": "04:38"
+  },
+  {
+    "title": "Excuses",
+    "artists": ["AP Dhillon", "Gurinder Gill"],
+    "releaseDate": "2020-09-21",
+    "duration": "02:54"
+  },
+  {
+    "title": "295",
+    "artists": ["Sidhu Moose Wala"],
+    "releaseDate": "2021-05-15",
+    "duration": "04:02"
+  },
+  {
+    "title": "High Rated Gabru",
+    "artists": ["Guru Randhawa"],
+    "releaseDate": "2017-07-03",
+    "duration": "03:35"
+  },
+  {
+    "title": "Lahore",
+    "artists": ["Guru Randhawa"],
+    "releaseDate": "2017-12-13",
+    "duration": "03:41"
+  },
+  {
+    "title": "So High",
+    "artists": ["Sidhu Moose Wala"],
+    "releaseDate": "2017-08-11",
+    "duration": "03:41"
+  },
+  {
+    "title": "Same Beef",
+    "artists": ["Bohemia", "Sidhu Moose Wala"],
+    "releaseDate": "2019-09-22",
+    "duration": "04:12"
+  },
+  {
+    "title": "Naah",
+    "artists": ["Harrdy Sandhu"],
+    "releaseDate": "2017-11-30",
+    "duration": "03:34"
+  },
+  {
+    "title": "Satisfya",
+    "artists": ["Imran Khan"],
+    "releaseDate": "2013-05-10",
+    "duration": "03:28"
+  }
+]

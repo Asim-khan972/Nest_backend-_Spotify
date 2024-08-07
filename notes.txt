@@ -1,0 +1,237 @@
+nestjs is Backend framework which is made on the top of express and it follow angular structure and OOP ..
+
+basic needs of nestjs is to structure the large applications.
+
+Module -> it is basic building of nest app .. we divide features in module ... like auth module and songs module 
+
+nest g module songs
+
+it has exports imports , providers , controllers 
+
+
+controllers-> they are used to handle http request that is send by client and send response to client 
+
+nest g controller songs
+
+
+Services or providers -> they are injected  in controller and they are used to get and set data in database ...
+
+here we write our business logic and call it in controllers and they are called in module
+
+nest g service songs
+
+................................................................................................................................
+
+
+Class Validator for validation 
+
+
+npm install class-validator class-transformer
+
+here we will create DTO for which we used for validation 
+
+
+middleware -> functions they run req-res cycle .. it is a pipeline through it every request should passes it before reaching final 
+
+route handler ....
+can perform tasks like logging, authentication, authorization, and request/response transformation.
+
+
+here is a list of what middleware can do:
+
+Logging
+Authentication
+Authorization
+Request Parsing
+Data Validation
+Rate Limiting
+Error Handling
+Response Compression
+CORS (Cross-Origin Resource Sharing)
+Static File Serving
+
+
+execute any code.
+make changes to the request and the response objects.
+end the request-response cycle.
+call the next middleware function in the stack.
+if the current middleware function does not end the request-response cycle, it must call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.
+
+nest g --help 
+
+nest g mi common/middleware/logger --no-spec --no-flat
+
+
+
+export class AppModule implements NestModule {
+  configure(consumer: MiddlewareConsumer) {
+    // consumer.apply(LoggerMiddleware).forRoutes('songs');
+    // consumer
+    //   .apply(LoggerMiddleware)
+    //   .forRoutes({ path: 'songs', method: RequestMethod.POST });
+    consumer.apply(LoggerMiddleware).forRoutes(SongsController);
+  }
+}
+we implements it on songs on controllers ... it will run on songs request
+
+.................................................................................................................
+
+
+Error Handling
+
+try 
+
+catch 
+
+
+Pipes -> 
+
+Pipes have two typical use cases:
+
+transformation: transform input data to the desired form (e.g., from string to integer)
+validation : evaluate input data and if valid, simply pass it through unchanged; otherwise, throw an exception
+
+Custom providers->
+
+useValue -> Use provide and useValue when you need to provide simple constants, configuration values, or mock objects.
+It is a straightforward way to inject static values or mock dependencies in NestJS applications.
+
+
+
+Injection scopes ->
+
+
+
+Entities -> they are classes which structure the data which you want to store it in Database 
+
+when all these Entities are defined and call them in our services if we to use it
+
+
+when we an Entities from outside of module is called they should be imported ...
+
+
+ imports: [TypeOrmModule.forFeature([Playlist, Song, User])],
+
+
+
+ Pagination -> npm i nestjs-typeorm-paginate
+
+we can use this for paginate
+
+
+---------------------------------------------------------------------------------------------------------------
+
+Relations 
+
+One -> One
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+Authentication
+
+We create two module called Users and Auth ... we import user   module in Auth module
+
+create a method in User service and call it in Auth Controller and test it 
+ 
+so now we create these two function you can create where do you and one which write data in 
+
+database and another is login which check credentials and here we use bcrypt for this which encrypt and decrypt our 
+
+password so login function will return 
+
+now JWT comes in Party ...
+
+login function will return  JWT Token and when we send request from Frontend we need this JWT in request header 
+
+and we will write passport strategy and we use auth guard which will check jwt token and then allow the user 
+
+we define secret key in App Module
+
+we write strategy and whenever call auth Gaurd jwt strategy will check bearer token in header and   validate function and e
+
+we also write guard and we will use it like Guard and it is like middleware and it will called before every request 
+
+so it will check wether jwt token is exist or not and check expiration and that we write it in Jwt strategy
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+Role base Authentication
+
+
+first we will create an artists 
+
+find the artist on the based of login User 
+
+we will add artistId to jwt payload so we use this id when we decode a token in Guard when we create a song it 
+
+will check that artistId and 
+
+now we will implement that 
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+  2 factor Authentication
+
+
+  it is simple process first we make that user can 2fa and disable 
+
+  it is if user enable than he can get secret key that is has been store 
+
+  and if match then user is verified 
+
+  we need three api one enable and disable and three one is val  
+
+                  API Key Authentication 
+
+
+
+  now we want to create api key authentication 
+
+  When do you need API Keys
+● You want to control the number of calls made to your API.
+● You want to identify usage patterns in your API's traffic
+
+we made api for that but i would not use that 
+
+-------------------------------------------------------------------------
+
+  migrations 
+
+
+migration is SQL query which apply to existing database and update the schema and apply new changes to our database
+
+What is Data Seeding
+
+seeding is a process initially when we populating data in database
+
+
+
+----------------------------------------------------------------------------------
+
+
+configuration 
+
+best paratice is to store variables in environment 
+
+
+PORT=3000
+SECRET=HAD_12X#@
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=123456
+DB_NAME=app7  implement like that because only USERNAME means your PC
